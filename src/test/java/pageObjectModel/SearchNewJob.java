@@ -25,6 +25,15 @@ public class SearchNewJob extends BasePage{
 	@FindBy(xpath="//span[text()='Search']")
 	WebElement search;
 	
+	@FindBy(xpath="//img[@alt='naukri user profile img']")
+	WebElement profile_click;
+	
+	@FindBy(xpath="//div//a[@title=\"Logout\"]")
+	WebElement Logout;
+	
+	@FindBy(xpath="//div[text()=\"Search\"]")
+	WebElement Logout_search;
+	
 	
 	public void searching() {
 		seaching.click();
@@ -47,5 +56,17 @@ public class SearchNewJob extends BasePage{
 	
 	public void serach() {
 		search.click();
+	}
+	
+	public void prf_click() {
+		profile_click.click();
+	}
+	
+	public void logout() {
+		Logout.click();
+	}
+	
+	public void logout_search() {
+		Logout_search.click();
 	}
 }
