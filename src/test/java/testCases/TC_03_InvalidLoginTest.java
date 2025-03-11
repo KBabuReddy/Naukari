@@ -22,9 +22,7 @@ public class TC_03_InvalidLoginTest extends BaseClass {
         lp.password(p.getProperty("password_invalid"));
         logger.info("Provided invalid username and password");
 
-      
         lp.showpassword();
-
         
         lp.login();
         logger.info("Attempted login with invalid credentials");
