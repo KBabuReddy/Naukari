@@ -1,0 +1,59 @@
+16:08:29:064 [main] INFO  testCases.TC_02_SearchTest - Clicking search butto
+16:10:07:645 [main] INFO  testCases.TC_02_SearchTest - starting test cases
+16:10:07:732 [main] INFO  testCases.TC_02_SearchTest - Clicked on log button
+16:10:08:092 [main] INFO  testCases.TC_02_SearchTest - provided username and password
+16:10:08:185 [main] INFO  testCases.TC_02_SearchTest - sucessfully logged into the naukari application
+16:37:07:977 [main] INFO  testCases.TC_01_LoginTest - starting test cases
+16:37:08:060 [main] INFO  testCases.TC_01_LoginTest - Clicked on log button
+16:37:08:422 [main] INFO  testCases.TC_01_LoginTest - provided username and password
+16:37:08:512 [main] INFO  testCases.TC_01_LoginTest - sucessfully logged into the naukari application
+16:37:16:429 [main] INFO  testCases.TC_02_SearchTest - provided username and password
+16:37:16:523 [main] INFO  testCases.TC_02_SearchTest - sucessfully logged into the naukari application
+16:37:16:523 [main] INFO  testCases.TC_02_SearchTest - Started search functinality
+16:37:17:682 [main] INFO  testCases.TC_02_SearchTest - Location checking
+16:37:17:787 [main] INFO  testCases.TC_02_SearchTest - Clicking search butto
+16:39:08:239 [main] INFO  testCases.TC_01_LoginTest - starting test cases
+16:39:08:311 [main] INFO  testCases.TC_01_LoginTest - Clicked on log button
+16:39:08:756 [main] INFO  testCases.TC_01_LoginTest - provided username and password
+16:39:08:854 [main] INFO  testCases.TC_01_LoginTest - sucessfully logged into the naukari application
+16:39:16:754 [main] INFO  testCases.TC_02_SearchTest - provided username and password
+16:39:17:032 [main] INFO  testCases.TC_02_SearchTest - sucessfully logged into the naukari application
+16:39:17:032 [main] INFO  testCases.TC_02_SearchTest - Started search functinality
+16:39:53:266 [main] INFO  testCases.TC_02_SearchTest - provided username and password
+16:39:53:367 [main] INFO  testCases.TC_02_SearchTest - sucessfully logged into the naukari application
+16:39:53:367 [main] INFO  testCases.TC_02_SearchTest - Started search functinality
+16:39:54:700 [main] INFO  testCases.TC_02_SearchTest - Location checking
+16:39:54:798 [main] INFO  testCases.TC_02_SearchTest - Clicking search butto
+23:12:39:983 [main] INFO  testCases.TC_01_LoginTest - starting test cases
+23:12:40:130 [main] INFO  testCases.TC_01_LoginTest - Clicked on log button
+23:12:40:608 [main] INFO  testCases.TC_01_LoginTest - provided username and password
+23:12:40:780 [main] INFO  testCases.TC_01_LoginTest - sucessfully logged into the naukari application
+23:12:50:050 [main] INFO  testCases.TC_02_SearchTest - provided username and password
+23:12:50:238 [main] INFO  testCases.TC_02_SearchTest - sucessfully logged into the naukari application
+23:12:50:238 [main] INFO  testCases.TC_02_SearchTest - Started search functinality
+23:12:51:755 [main] INFO  testCases.TC_02_SearchTest - Location checking
+23:12:51:929 [main] INFO  testCases.TC_02_SearchTest - Clicking search butto
+10:44:39:757 [main] INFO  testCases.TC_01_LoginTest - starting test cases
+10:44:39:863 [main] INFO  testCases.TC_01_LoginTest - Clicked on log button
+10:44:40:219 [main] INFO  testCases.TC_01_LoginTest - provided username and password
+10:44:40:317 [main] INFO  testCases.TC_01_LoginTest - sucessfully logged into the naukari application
+10:44:48:780 [main] INFO  testCases.TC_02_SearchTest - provided username and password
+10:44:48:873 [main] INFO  testCases.TC_02_SearchTest - sucessfully logged into the naukari application
+10:44:48:873 [main] INFO  testCases.TC_02_SearchTest - Started search functinality
+10:44:50:204 [main] INFO  testCases.TC_02_SearchTest - Location checking
+10:44:50:359 [main] INFO  testCases.TC_02_SearchTest - Clicking search butto
+10:51:53:888 [main] INFO  testCases.TC_01_LoginTest - starting test cases
+10:51:53:991 [main] INFO  testCases.TC_01_LoginTest - Clicked on log button
+10:51:54:335 [main] INFO  testCases.TC_01_LoginTest - provided username and password
+10:51:54:430 [main] INFO  testCases.TC_01_LoginTest - sucessfully logged into the naukari application
+10:52:02:733 [main] INFO  testCases.TC_02_SearchTest - provided username and password
+10:52:02:823 [main] INFO  testCases.TC_02_SearchTest - sucessfully logged into the naukari application
+10:52:02:824 [main] INFO  testCases.TC_02_SearchTest - Started search functinality
+10:52:03:993 [main] INFO  testCases.TC_02_SearchTest - Location checking
+10:52:04:076 [main] INFO  testCases.TC_02_SearchTest - Clicking search butto
+10:53:43:179 [main] INFO  testCases.TC_01_LoginTest - starting test cases
+10:53:43:267 [main] INFO  testCases.TC_01_LoginTest - Clicked on log button
+10:53:43:621 [main] INFO  testCases.TC_01_LoginTest - provided username and password
+10:53:43:726 [main] INFO  testCases.TC_01_LoginTest - sucessfully logged into the naukari application
+10:53:52:474 [main] INFO  testCases.TC_02_SearchTest - provided username and password
+10:53:52:576 [main] INFO  testCases.TC_02_SearchTest - sucessfully logged into the naukari application
