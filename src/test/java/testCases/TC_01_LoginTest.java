@@ -24,7 +24,7 @@ public class TC_01_LoginTest extends BaseClass {
 		lp.password(p.getProperty("password"));
 		logger.info("provided username and password");
 		
-		lp.showpassword();
+		//lp.showpassword();
 		
 		
 		lp.login();

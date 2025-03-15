@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-11T10:55:49 IST" name="Suite" finished-at="2025-03-11T10:56:12 IST" duration-ms="22384">
+  <suite started-at="2025-03-15T11:29:00 IST" name="Suite" finished-at="2025-03-15T11:29:14 IST" duration-ms="14716">
     <groups>
       <group name="regression">
-        <method signature="TC_02_SearchTest.search()[pri:1, instance:testCases.TC_02_SearchTest@71e9ddb4]" name="search" class="testCases.TC_02_SearchTest"/>
-        <method signature="TC_02_SearchTest.Login_search()[pri:2, instance:testCases.TC_02_SearchTest@71e9ddb4]" name="Login_search" class="testCases.TC_02_SearchTest"/>
+        <method signature="TC_02_SearchTest.search()[pri:1, instance:testCases.TC_02_SearchTest@1190200a]" name="search" class="testCases.TC_02_SearchTest"/>
+        <method signature="TC_02_SearchTest.Login_search()[pri:2, instance:testCases.TC_02_SearchTest@1190200a]" name="Login_search" class="testCases.TC_02_SearchTest"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC_02_SearchTest.search()[pri:1, instance:testCases.TC_02_SearchTest@71e9ddb4]" name="search" class="testCases.TC_02_SearchTest"/>
-        <method signature="TC_02_SearchTest.Login_search()[pri:2, instance:testCases.TC_02_SearchTest@71e9ddb4]" name="Login_search" class="testCases.TC_02_SearchTest"/>
+        <method signature="TC_02_SearchTest.search()[pri:1, instance:testCases.TC_02_SearchTest@1190200a]" name="search" class="testCases.TC_02_SearchTest"/>
+        <method signature="TC_02_SearchTest.Login_search()[pri:2, instance:testCases.TC_02_SearchTest@1190200a]" name="Login_search" class="testCases.TC_02_SearchTest"/>
+        <method signature="TC_01_LoginTest.login()[pri:0, instance:testCases.TC_01_LoginTest@71e9ddb4]" name="login" class="testCases.TC_01_LoginTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-03-11T10:55:49 IST" name="Test" finished-at="2025-03-11T10:56:12 IST" duration-ms="22384">
-      <class name="testCases.TC_02_SearchTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_02_SearchTest@71e9ddb4]" started-at="2025-03-11T10:55:50 IST" name="setup" finished-at="2025-03-11T10:55:53 IST" duration-ms="3854" status="PASS">
+    <test started-at="2025-03-15T11:29:00 IST" name="Test" finished-at="2025-03-15T11:29:14 IST" duration-ms="14716">
+      <class name="testCases.TC_01_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_01_LoginTest@71e9ddb4]" started-at="2025-03-15T11:29:00 IST" name="setup" finished-at="2025-03-15T11:29:05 IST" duration-ms="4792" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,33 +32,49 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="search()[pri:1, instance:testCases.TC_02_SearchTest@71e9ddb4]" started-at="2025-03-11T10:55:53 IST" name="search" finished-at="2025-03-11T10:55:56 IST" duration-ms="2537" status="PASS">
+        <test-method signature="login()[pri:0, instance:testCases.TC_01_LoginTest@71e9ddb4]" started-at="2025-03-15T11:29:05 IST" name="login" finished-at="2025-03-15T11:29:05 IST" duration-ms="517" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- search -->
-        <test-method signature="Login_search()[pri:2, instance:testCases.TC_02_SearchTest@71e9ddb4]" started-at="2025-03-11T10:55:56 IST" name="Login_search" finished-at="2025-03-11T10:56:06 IST" depends-on-methods="testCases.TC_02_SearchTest.search" duration-ms="10489" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_01_LoginTest@71e9ddb4]" started-at="2025-03-15T11:29:05 IST" name="teardown" finished-at="2025-03-15T11:29:10 IST" duration-ms="5284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_01_LoginTest -->
+      <class name="testCases.TC_02_SearchTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_02_SearchTest@1190200a]" started-at="2025-03-15T11:29:10 IST" name="setup" finished-at="2025-03-15T11:29:14 IST" duration-ms="3917" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Enter keyword / designation / companies']"}
-  (Session info: chrome=134.0.6998.36)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[unknown error: failed to change window state to 'maximized', current state is 'minimized'
+  (Session info: chrome=134.0.6998.89)
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1420f53c86a1487008a4b766d5a4d57d, findElement {using=xpath, value=//input[@placeholder='Enter keyword / designation / companies']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\A20014~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53161/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1420f53c86a1487008a4b766d5a4d57d]]>
+Command: [3692212cbd4f938ff34b699833336eca, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\A20014~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62198}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62198/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3692212cbd4f938ff34b699833336eca]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Enter keyword / designation / companies']"}
-  (Session info: chrome=134.0.6998.36)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'maximized', current state is 'minimized'
+  (Session info: chrome=134.0.6998.89)
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1420f53c86a1487008a4b766d5a4d57d, findElement {using=xpath, value=//input[@placeholder='Enter keyword / designation / companies']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\A20014~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53161/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1420f53c86a1487008a4b766d5a4d57d
+Command: [3692212cbd4f938ff34b699833336eca, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\A20014~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62198}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62198/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3692212cbd4f938ff34b699833336eca
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -68,23 +85,115 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
-at pageObjectModel.SearchNewJob.searchdesig(SearchNewJob.java:43)
-at testCases.TC_02_SearchTest.Login_search(TC_02_SearchTest.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+at testCases.BaseClass.setup(BaseClass.java:102)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search()[pri:1, instance:testCases.TC_02_SearchTest@1190200a]" started-at="2025-03-15T11:29:14 IST" name="search" finished-at="2025-03-15T11:29:14 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: failed to change window state to 'maximized', current state is 'minimized'
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3692212cbd4f938ff34b699833336eca, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\A20014~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62198}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62198/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3692212cbd4f938ff34b699833336eca]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'maximized', current state is 'minimized'
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3692212cbd4f938ff34b699833336eca, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\A20014~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62198}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62198/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3692212cbd4f938ff34b699833336eca
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+at testCases.BaseClass.setup(BaseClass.java:102)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="Login_search()[pri:2, instance:testCases.TC_02_SearchTest@1190200a]" started-at="2025-03-15T11:29:14 IST" name="Login_search" finished-at="2025-03-15T11:29:14 IST" depends-on-methods="testCases.TC_02_SearchTest.search" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testCases.TC_02_SearchTest.Login_search() on instance testCases.TC_02_SearchTest@1190200a depends on not successfully finished methods 
+[testCases.TC_02_SearchTest.search() on instance testCases.TC_02_SearchTest@1190200a]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testCases.TC_02_SearchTest.Login_search() on instance testCases.TC_02_SearchTest@1190200a depends on not successfully finished methods 
+[testCases.TC_02_SearchTest.search() on instance testCases.TC_02_SearchTest@1190200a]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
@@ -105,11 +214,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_search -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_02_SearchTest@71e9ddb4]" started-at="2025-03-11T10:56:07 IST" name="teardown" finished-at="2025-03-11T10:56:12 IST" duration-ms="5159" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_02_SearchTest@1190200a]" started-at="2025-03-15T11:29:14 IST" name="teardown" finished-at="2025-03-15T11:29:14 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

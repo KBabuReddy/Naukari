@@ -18,7 +18,7 @@ public class TC_02_SearchTest extends BaseClass{
 		lp.username(p.getProperty("email"));
 		lp.password(p.getProperty("password"));
 		logger.info("provided username and password");
-		lp.showpassword();
+		//lp.showpassword();
 		lp.login();
 		logger.info("sucessfully logged into the naukari application");
 		
