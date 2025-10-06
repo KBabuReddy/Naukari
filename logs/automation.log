@@ -1,26 +1,38 @@
-10:53:06:931 [main] INFO  testCases.TC_02_SearchTest - provided username and password
-10:53:07:023 [main] INFO  testCases.TC_02_SearchTest - sucessfully logged into the naukari application
-10:53:07:023 [main] INFO  testCases.TC_02_SearchTest - Started search functinality
-10:53:08:294 [main] INFO  testCases.TC_02_SearchTest - Location checking
-10:53:08:504 [main] INFO  testCases.TC_02_SearchTest - Clicking search butto
-10:53:08:943 [main] INFO  testCases.TC_02_SearchTest - Started search functinality
-10:55:54:336 [main] INFO  testCases.TC_02_SearchTest - provided username and password
-10:55:54:442 [main] INFO  testCases.TC_02_SearchTest - sucessfully logged into the naukari application
-10:55:54:445 [main] INFO  testCases.TC_02_SearchTest - Started search functinality
-10:55:55:938 [main] INFO  testCases.TC_02_SearchTest - Location checking
-10:55:56:023 [main] INFO  testCases.TC_02_SearchTest - Clicking search butto
-10:55:56:434 [main] INFO  testCases.TC_02_SearchTest - Started search functinality
-12:45:17:355 [main] INFO  testCases.TC_01_LoginTest - starting test cases
-12:45:17:451 [main] INFO  testCases.TC_01_LoginTest - Clicked on log button
-12:45:17:796 [main] INFO  testCases.TC_01_LoginTest - provided username and password
-12:45:17:847 [main] INFO  testCases.TC_01_LoginTest - sucessfully logged into the naukari application
-12:45:26:026 [main] INFO  testCases.TC_02_SearchTest - provided username and password
-12:45:26:082 [main] INFO  testCases.TC_02_SearchTest - sucessfully logged into the naukari application
-12:45:26:082 [main] INFO  testCases.TC_02_SearchTest - Started search functinality
-12:45:27:461 [main] INFO  testCases.TC_02_SearchTest - Location checking
-12:45:27:578 [main] INFO  testCases.TC_02_SearchTest - Clicking search butto
-12:45:27:991 [main] INFO  testCases.TC_02_SearchTest - Started search functinality
-11:29:05:092 [main] INFO  testCases.TC_01_LoginTest - starting test cases
-11:29:05:185 [main] INFO  testCases.TC_01_LoginTest - Clicked on log button
-11:29:05:539 [main] INFO  testCases.TC_01_LoginTest - provided username and password
-11:29:05:597 [main] INFO  testCases.TC_01_LoginTest - sucessfully logged into the naukari application
+21:48:28:071 [main] INFO  testCases.TC_04_ApplyJob - Started search functinality
+21:48:36:780 [main] INFO  testCases.TC_04_ApplyJob - Location checking
+21:48:40:092 [main] INFO  testCases.TC_04_ApplyJob - Clicking search butto
+21:56:15:388 [main] INFO  testCases.TC_04_ApplyJob - provided username and password
+21:56:15:576 [main] INFO  testCases.TC_04_ApplyJob - sucessfully logged into the naukari application
+21:56:15:576 [main] INFO  testCases.TC_04_ApplyJob - Started search functinality
+21:56:24:331 [main] INFO  testCases.TC_04_ApplyJob - Location checking
+21:56:27:674 [main] INFO  testCases.TC_04_ApplyJob - Clicking search butto
+21:57:51:180 [main] INFO  testCases.TC_04_ApplyJob - provided username and password
+21:57:51:374 [main] INFO  testCases.TC_04_ApplyJob - sucessfully logged into the naukari application
+21:57:51:374 [main] INFO  testCases.TC_04_ApplyJob - Started search functinality
+21:58:00:368 [main] INFO  testCases.TC_04_ApplyJob - Location checking
+21:58:03:655 [main] INFO  testCases.TC_04_ApplyJob - Clicking search butto
+22:04:25:540 [main] INFO  testCases.TC_04_ApplyJob - provided username and password
+22:04:25:774 [main] INFO  testCases.TC_04_ApplyJob - sucessfully logged into the naukari application
+22:04:25:774 [main] INFO  testCases.TC_04_ApplyJob - Started search functinality
+22:04:34:808 [main] INFO  testCases.TC_04_ApplyJob - Location checking
+22:04:38:181 [main] INFO  testCases.TC_04_ApplyJob - Clicking search butto
+22:16:47:395 [main] INFO  testCases.TC_04_ApplyJob - provided username and password
+22:16:47:691 [main] INFO  testCases.TC_04_ApplyJob - sucessfully logged into the naukari application
+22:16:47:691 [main] INFO  testCases.TC_04_ApplyJob - Started search functinality
+22:16:56:286 [main] INFO  testCases.TC_04_ApplyJob - Location checking
+22:16:59:783 [main] INFO  testCases.TC_04_ApplyJob - Clicking search butto
+22:19:02:531 [main] INFO  testCases.TC_04_ApplyJob - provided username and password
+22:19:02:836 [main] INFO  testCases.TC_04_ApplyJob - sucessfully logged into the naukari application
+22:19:02:836 [main] INFO  testCases.TC_04_ApplyJob - Started search functinality
+22:19:11:703 [main] INFO  testCases.TC_04_ApplyJob - Location checking
+22:19:15:112 [main] INFO  testCases.TC_04_ApplyJob - Clicking search butto
+23:34:00:813 [main] INFO  testCases.TC_04_ApplyJob - provided username and password
+23:34:00:922 [main] INFO  testCases.TC_04_ApplyJob - sucessfully logged into the naukari application
+23:34:00:922 [main] INFO  testCases.TC_04_ApplyJob - Started search functinality
+23:34:08:451 [main] INFO  testCases.TC_04_ApplyJob - Location checking
+23:34:11:662 [main] INFO  testCases.TC_04_ApplyJob - Clicking search butto
+23:37:55:367 [main] INFO  testCases.TC_04_ApplyJob - provided username and password
+23:37:55:504 [main] INFO  testCases.TC_04_ApplyJob - sucessfully logged into the naukari application
+23:37:55:504 [main] INFO  testCases.TC_04_ApplyJob - Started search functinality
+23:38:03:669 [main] INFO  testCases.TC_04_ApplyJob - Location checking
+23:38:06:818 [main] INFO  testCases.TC_04_ApplyJob - Clicking search butto

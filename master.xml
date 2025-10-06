@@ -9,12 +9,12 @@
   <test thread-count="5" name="Test">
   
   <parameter name="os" value="windows"/>
-  <parameter name="browser" value="chrome"/>
+  <parameter name="browser" value="edge"/>
   
     <classes>
      <class name="testCases.TC_01_LoginTest"/>
        <class name="testCases.TC_02_SearchTest"/>
-      <!--  <class name="testCases.TC_03_InvalidLoginTest"/>-->
+        <class name="testCases.TC_03_InvalidLoginTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

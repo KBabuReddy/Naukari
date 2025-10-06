@@ -8,7 +8,7 @@ import pageObjectModel.Login;
 public class TC_03_InvalidLoginTest extends BaseClass {
 
     @Test(groups = "sanity")
-    public void login() {
+    public void login() throws InterruptedException {
         logger.info("Starting test case: Invalid login credentials");
 
         
@@ -19,7 +19,9 @@ public class TC_03_InvalidLoginTest extends BaseClass {
         
         Login lp = new Login(driver);
         lp.username(p.getProperty("email_invalid"));
+        Thread.sleep(3000);
         lp.password(p.getProperty("password_invalid"));
+        Thread.sleep(3000);
         logger.info("Provided invalid username and password");
 
         lp.showpassword();

@@ -1,6 +1,7 @@
 package testCases;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -16,6 +17,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -30,7 +32,8 @@ public Properties p;
 	
 	@BeforeClass (groups= {"regression", "sanity"})
 	@Parameters({"os","browser"})
-   public void setup(String os, String br) throws IOException {
+   //public void setup(String os, String br) throws IOException {
+	public void setup(@Optional("windows") String os, @Optional("chrome") String br) throws IOException {
 		
     //log4j2 file	
 	 logger= LogManager.getLogger(this.getClass());
